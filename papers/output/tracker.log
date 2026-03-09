@@ -1,0 +1,181 @@
+2026-03-09 11:22:03,319 [INFO] ============================================================
+2026-03-09 11:22:03,319 [INFO] VLN Paper Tracker started
+2026-03-09 11:22:03,319 [INFO] Previously fetched papers: 0
+2026-03-09 11:22:03,319 [INFO] Querying arxiv: vision AND language AND navigation
+2026-03-09 11:22:08,014 [INFO] Querying arxiv: vision-and-language navigation
+2026-03-09 11:22:12,630 [INFO] Querying arxiv: embodied navigation
+2026-03-09 11:22:17,143 [INFO] Querying arxiv: VLN
+2026-03-09 11:22:21,245 [INFO] Querying arxiv: visual language navigation
+2026-03-09 11:22:25,249 [INFO] Querying arxiv: instruction following navigation
+2026-03-09 11:22:29,502 [INFO] Total unique entries fetched: 133
+2026-03-09 11:22:29,507 [INFO] New VLN-relevant papers after filtering: 52
+2026-03-09 11:22:29,507 [INFO]   Translating [1/52]: History-Conditioned Spatio-Temporal Visual Token Pruning for...
+2026-03-09 11:22:30,321 [INFO]   Translating [2/52]: REACT++: Efficient Cross-Attention for Real-Time Scene Graph...
+2026-03-09 11:22:31,250 [INFO]   Translating [3/52]: HiPP-Prune: Hierarchical Preference-Conditioned Structured P...
+2026-03-09 11:22:32,092 [INFO]   Translating [4/52]: DreamToNav: Generalizable Navigation for Robots via Generati...
+2026-03-09 11:22:32,930 [INFO]   Translating [5/52]: DeepSight: Bridging Depth Maps and Language with a Depth-Dri...
+2026-03-09 11:22:33,867 [INFO]   Translating [6/52]: Multimodal Behavior Tree Generation: A Small Vision-Language...
+2026-03-09 11:22:34,721 [INFO]   Translating [7/52]: Lifelong Embodied Navigation Learning...
+2026-03-09 11:22:35,742 [INFO]   Translating [8/52]: Restoring Linguistic Grounding in VLA Models via Train-Free ...
+2026-03-09 11:22:36,516 [INFO]   Translating [9/52]: MagRobot:An Open Simulator for Magnetically Navigated Robots...
+2026-03-09 11:22:37,756 [INFO]   Translating [10/52]: Improved hopping control on slopes for small robots using sp...
+2026-03-09 11:22:38,594 [INFO]   Translating [11/52]: Reference-guided Policy Optimization for Molecular Optimizat...
+2026-03-09 11:22:39,926 [INFO]   Translating [12/52]: Safe-SAGE: Social-Semantic Adaptive Guidance for Safe Engage...
+2026-03-09 11:22:40,752 [INFO]   Translating [13/52]: OpenFrontier: General Navigation with Visual-Language Ground...
+2026-03-09 11:22:41,591 [INFO]   Translating [14/52]: Lightweight Visual Reasoning for Socially-Aware Robots...
+2026-03-09 11:22:42,997 [INFO]   Translating [15/52]: RAGNav: A Retrieval-Augmented Topological Reasoning Framewor...
+2026-03-09 11:22:44,256 [INFO]   Translating [16/52]: PROSPECT: Unified Streaming Vision-Language Navigation via S...
+2026-03-09 11:22:48,946 [INFO]   Translating [17/52]: MA-CoNav: A Master-Slave Multi-Agent Framework with Hierarch...
+2026-03-09 11:22:49,770 [INFO]   Translating [18/52]: TagaVLM: Topology-Aware Global Action Reasoning for Vision-L...
+2026-03-09 11:22:50,631 [INFO]   Translating [19/52]: CoFL: Continuous Flow Fields for Language-Conditioned Naviga...
+2026-03-09 11:23:20,894 [WARNING] Translation attempt 1 failed: Language-conditioned navigation pipelines often rely on brittle modular components or costly action-sequence generation. To address these limitations, we present CoFL, an end-to-end policy that directly maps a bird's-eye view (BEV) observation and a language instruction to a continuous flow field for navigation. Instead of predicting discrete action tokens or sampling action chunks via iterative denoising, CoFL outputs instantaneous velocities that can be queried at arbitrary 2D projected locations. Trajectories are obtained by numerical integration of the predicted field, producing smooth motion that remains reactive under closed-loop execution. To enable large-scale training, we build a dataset of over 500k BEV image-instruction pairs, each procedurally annotated with a flow field and a trajectory derived from BEV semantic maps built on Matterport3D and ScanNet. By training on a mixed distribution, CoFL significantly outperforms modular Vision-Language Model (VLM)-based planners and generative policy baselines on strictly unseen scenes. Finally, we deploy CoFL zero-shot in real-world experiments with overhead BEV observations across multiple layouts, maintaining reliable closed-loop control and a high success rate. --> No translation was found using the current translator. Try another translator?
+2026-03-09 11:23:22,661 [INFO]   Translating [20/52]: SSMG-Nav: Enhancing Lifelong Object Navigation with Semantic...
+2026-03-09 11:23:23,460 [INFO]   Translating [21/52]: SFCo-Nav: Efficient Zero-Shot Visual Language Navigation via...
+2026-03-09 11:23:24,782 [INFO]   Translating [22/52]: ProFocus: Proactive Perception and Focused Reasoning in Visi...
+2026-03-09 11:23:25,607 [INFO]   Translating [23/52]: pySpatial: Generating 3D Visual Programs for Zero-Shot Spati...
+2026-03-09 11:23:26,426 [INFO]   Translating [24/52]: Act Like a Pathologist: Tissue-Aware Whole Slide Image Reaso...
+2026-03-09 11:23:27,597 [INFO]   Translating [25/52]: TACIT Benchmark: A Programmatic Visual Reasoning Benchmark f...
+2026-03-09 11:23:28,867 [INFO]   Translating [26/52]: Enhancing Vision-Language Navigation with Multimodal Event K...
+2026-03-09 11:23:29,759 [INFO]   Translating [27/52]: See, Act, Adapt: Active Perception for Unsupervised Cross-Do...
+2026-03-09 11:23:31,161 [INFO]   Translating [28/52]: LongVideo-R1: Smart Navigation for Low-cost Long Video Under...
+2026-03-09 11:23:32,502 [INFO]   Translating [29/52]: Contextual Safety Reasoning and Grounding for Open-World Rob...
+2026-03-09 11:23:33,715 [INFO]   Translating [30/52]: Global Commander and Local Operative: A Dual-Agent Framework...
+2026-03-09 11:23:34,994 [INFO]   Translating [31/52]: CapNav: Benchmarking Vision Language Models on Capability-co...
+2026-03-09 11:23:35,849 [INFO]   Translating [32/52]: RoboLayout: Differentiable 3D Scene Generation for Embodied ...
+2026-03-09 11:23:36,663 [INFO]   Translating [33/52]: Learning to Retrieve Navigable Candidates for Efficient Visi...
+2026-03-09 11:23:37,611 [INFO]   Translating [34/52]: pFedNavi: Structure-Aware Personalized Federated Vision-Lang...
+2026-03-09 11:23:38,547 [INFO]   Translating [35/52]: AutoFly: Vision-Language-Action Model for UAV Autonomous Nav...
+2026-03-09 11:23:39,429 [INFO]   Translating [36/52]: Nipping the Drift in the Bud: Retrospective Rectification fo...
+2026-03-09 11:23:40,734 [INFO]   Translating [37/52]: VLN-Pilot: Large Vision-Language Model as an Autonomous Indo...
+2026-03-09 11:23:41,914 [INFO]   Translating [38/52]: MerNav: A Highly Generalizable Memory-Execute-Review Framewo...
+2026-03-09 11:23:42,683 [INFO]   Translating [39/52]: Fly0: Decoupling Semantic Grounding from Geometric Planning ...
+2026-03-09 11:23:46,985 [INFO]   Translating [40/52]: MapDream: Task-Driven Map Learning for Vision-Language Navig...
+2026-03-09 11:24:08,949 [INFO]   Translating [41/52]: Mitigating Error Accumulation in Continuous Navigation via M...
+2026-03-09 11:24:10,448 [INFO]   Translating [42/52]: Dynamic Topology Awareness: Breaking the Granularity Rigidit...
+2026-03-09 11:24:11,282 [INFO]   Translating [43/52]: DV-VLN: Dual Verification for Reliable LLM-Based Vision-and-...
+2026-03-09 11:24:12,579 [INFO]   Translating [44/52]: \textsc{NaVIDA}: Vision-Language Navigation with Inverse Dyn...
+2026-03-09 11:24:14,106 [INFO]   Translating [45/52]: FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning fo...
+2026-03-09 11:24:15,294 [INFO]   Translating [46/52]: Spatial-VLN: Zero-Shot Vision-and-Language Navigation With E...
+2026-03-09 11:24:16,874 [INFO]   Translating [47/52]: Towards Open Environments and Instructions: General Vision-L...
+2026-03-09 11:24:37,115 [INFO]   Translating [48/52]: GROKE: Vision-Free Navigation Instruction Evaluation via Gra...
+2026-03-09 11:24:37,933 [INFO]   Translating [49/52]: SpatialNav: Leveraging Spatial Scene Graphs for Zero-Shot Vi...
+2026-03-09 11:24:38,759 [INFO]   Translating [50/52]: SeqWalker: Sequential-Horizon Vision-and-Language Navigation...
+2026-03-09 11:24:39,975 [INFO]   Translating [51/52]: AirNav: A Large-Scale Real-World UAV Vision-and-Language Nav...
+2026-03-09 11:24:42,773 [INFO]   Translating [52/52]: VLN-MME: Diagnosing MLLMs as Language-guided Visual Navigati...
+2026-03-09 11:24:44,091 [INFO] Markdown updated: /mnt/dataset/jmzhou/papers/output/vln_papers.md
+2026-03-09 11:24:44,095 [INFO] Done! 52 new papers added.
+2026-03-09 11:40:22,173 [INFO] ============================================================
+2026-03-09 11:40:22,173 [INFO] Paper Tracker started [topic=seg3d]
+2026-03-09 11:40:22,173 [INFO] Previously fetched papers: 0
+2026-03-09 11:40:22,173 [INFO] Querying arxiv: 3D semantic segmentation
+2026-03-09 11:40:27,456 [INFO] Querying arxiv: 3D instance segmentation
+2026-03-09 11:40:32,129 [INFO] Querying arxiv: point cloud segmentation
+2026-03-09 11:40:36,968 [INFO] Querying arxiv: point cloud semantic segmentation
+2026-03-09 11:40:41,529 [INFO] Querying arxiv: point cloud instance segmentation
+2026-03-09 11:40:46,246 [INFO] Querying arxiv: scene segmentation 3D
+2026-03-09 11:40:50,815 [INFO] Querying arxiv: indoor semantic segmentation
+2026-03-09 11:40:55,778 [INFO] Querying arxiv: ScanNet
+2026-03-09 11:41:00,464 [INFO] Querying arxiv: S3DIS
+2026-03-09 11:41:04,945 [INFO] Querying arxiv: Semantic3D
+2026-03-09 11:41:09,092 [INFO] Querying arxiv: 3D scene understanding
+2026-03-09 11:41:13,518 [INFO] Querying arxiv: point cloud understanding
+2026-03-09 11:41:18,243 [INFO] Total unique entries fetched: 138
+2026-03-09 11:41:18,248 [INFO] New seg3d-relevant papers after filtering: 72
+2026-03-09 11:41:22,153 [INFO]   单位 [2/72]: 2603.06445v1 -> 1 条
+2026-03-09 11:41:26,383 [INFO]   单位 [4/72]: 2603.06321v1 -> 3 条
+2026-03-09 11:41:30,755 [INFO]   单位 [6/72]: 2603.06168v1 -> 2 条
+2026-03-09 11:41:38,088 [INFO]   单位 [9/72]: 2603.04099v1 -> 2 条
+2026-03-09 11:42:02,714 [INFO]   单位 [20/72]: 2602.01296v1 -> 3 条
+2026-03-09 11:42:07,398 [INFO]   单位 [22/72]: 2601.12530v1 -> 1 条
+2026-03-09 11:42:09,446 [INFO]   单位 [23/72]: 2601.08831v3 -> 1 条
+2026-03-09 11:42:11,544 [INFO]   单位 [24/72]: 2601.01660v1 -> 2 条
+2026-03-09 11:42:18,270 [INFO]   单位 [27/72]: 2512.24763v1 -> 2 条
+2026-03-09 11:42:27,560 [INFO]   单位 [31/72]: 2512.09407v2 -> 1 条
+2026-03-09 11:42:34,541 [INFO]   单位 [34/72]: 2512.08253v1 -> 1 条
+2026-03-09 11:42:40,645 [INFO]   单位 [37/72]: 2511.11232v1 -> 1 条
+2026-03-09 11:42:42,803 [INFO]   单位 [38/72]: 2511.11700v1 -> 1 条
+2026-03-09 11:42:45,123 [INFO]   单位 [39/72]: 2510.17875v1 -> 3 条
+2026-03-09 11:42:49,024 [INFO]   单位 [41/72]: 2510.06582v3 -> 1 条
+2026-03-09 11:42:53,810 [INFO]   单位 [43/72]: 2509.08280v1 -> 1 条
+2026-03-09 11:42:56,321 [INFO]   单位 [44/72]: 2508.04962v1 -> 3 条
+2026-03-09 11:43:01,223 [INFO]   单位 [46/72]: 2507.23134v1 -> 2 条
+2026-03-09 11:43:07,851 [INFO]   单位 [48/72]: 2507.06592v1 -> 1 条
+2026-03-09 11:43:14,484 [INFO]   单位 [51/72]: 2506.23227v1 -> 1 条
+2026-03-09 11:43:16,939 [INFO]   单位 [52/72]: 2506.17891v1 -> 1 条
+2026-03-09 11:43:19,837 [INFO]   单位 [53/72]: 2505.18924v2 -> 1 条
+2026-03-09 11:43:32,844 [INFO]   单位 [58/72]: 2504.01648v2 -> 4 条
+2026-03-09 11:43:34,853 [INFO]   单位 [59/72]: 2408.16768v1 -> 2 条
+2026-03-09 11:43:37,308 [INFO]   单位 [60/72]: 2403.01740v1 -> 4 条
+2026-03-09 11:44:01,112 [INFO] Dry run mode. Papers found:
+2026-03-09 11:44:01,112 [INFO]   - SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation (2026-03-06)
+2026-03-09 11:44:01,112 [INFO]   - What if? Emulative Simulation with World Models for Situated Reasoning (2026-03-06)
+2026-03-09 11:44:01,112 [INFO]   - Rewis3d: Reconstruction Improves Weakly-Supervised Semantic Segmentation (2026-03-06)
+2026-03-09 11:44:01,112 [INFO]   - P-SLCR: Unsupervised Point Cloud Semantic Segmentation via Prototypes Structure Learning and Consistent Reasoning (2026-03-06)
+2026-03-09 11:44:01,112 [INFO]   - Hierarchical Collaborative Fusion for 3D Instance-aware Referring Expression Segmentation (2026-03-06)
+2026-03-09 11:44:01,112 [INFO]   - JOPP-3D: Joint Open Vocabulary Semantic Segmentation on Point Clouds and Panoramas (2026-03-06)
+2026-03-09 11:44:01,112 [INFO]   - FreeOcc: Training-free Panoptic Occupancy Prediction via Foundation Models (2026-03-06)
+2026-03-09 11:44:01,112 [INFO]   - EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding (2026-03-04)
+2026-03-09 11:44:01,112 [INFO]   - Efficient Point Cloud Processing with High-Dimensional Positional Encoding and Non-Local MLPs (2026-03-04)
+2026-03-09 11:44:01,112 [INFO]   - DISC: Dense Integrated Semantic Context for Large-Scale Open-Set Semantic Mapping (2026-03-04)
+2026-03-09 11:44:01,112 [INFO]   - CoFL: Continuous Flow Fields for Language-Conditioned Navigation (2026-03-03)
+2026-03-09 11:44:01,112 [INFO]   - SimRecon: SimReady Compositional Scene Reconstruction from Real Videos (2026-03-02)
+2026-03-09 11:44:01,112 [INFO]   - VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection (2026-03-01)
+2026-03-09 11:44:01,112 [INFO]   - Monocular Open Vocabulary Occupancy Prediction for Indoor Scenes (2026-02-26)
+2026-03-09 11:44:01,112 [INFO]   - Generalizing Visual Geometry Priors to Sparse Gaussian Occupancy Prediction (2026-02-25)
+2026-03-09 11:44:01,112 [INFO]   - SceneVGGT: VGGT-based online 3D semantic SLAM for indoor scene understanding and navigation (2026-02-12)
+2026-03-09 11:44:01,112 [INFO]   - LaSSM: Efficient Semantic-Spatial Query Decoding via Local Aggregation and State Space Models for 3D Instance Segmentation (2026-02-11)
+2026-03-09 11:44:01,112 [INFO]   - Enhancing Indoor Occupancy Prediction via Sparse Query-Based Multi-Level Consistent Knowledge Distillation (2026-02-02)
+2026-03-09 11:44:01,112 [INFO]   - SurfSplat: Conquering Feedforward 2D Gaussian Splatting with Surface Continuity Priors (2026-02-02)
+2026-03-09 11:44:01,112 [INFO]   - Interacted Planes Reveal 3D Line Mapping (2026-02-01)
+2026-03-09 11:44:01,112 [INFO]   - MV-SAM: Multi-view Promptable Segmentation using Pointmap Guidance (2026-01-25)
+2026-03-09 11:44:01,112 [INFO]   - XRefine: Attention-Guided Keypoint Match Refinement (2026-01-18)
+2026-03-09 11:44:01,113 [INFO]   - 3AM: 3egment Anything with Geometric Consistency in Videos (2026-01-13)
+2026-03-09 11:44:01,113 [INFO]   - Animated 3DGS Avatars in Diverse Scenes with Consistent Lighting and Shadows (2026-01-04)
+2026-03-09 11:44:01,113 [INFO]   - Rethinking Multimodal Few-Shot 3D Point Cloud Segmentation: From Fused Refinement to Decoupled Arbitration (2026-01-04)
+2026-03-09 11:44:01,113 [INFO]   - GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction (2025-12-31)
+2026-03-09 11:44:01,113 [INFO]   - UniC-Lift: Unified 3D Instance Segmentation via Contrastive Learning (2025-12-31)
+2026-03-09 11:44:01,113 [INFO]   - Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting (2025-12-24)
+2026-03-09 11:44:01,113 [INFO]   - G3Splat: Geometrically Consistent Generalizable Gaussian Splatting (2025-12-19)
+2026-03-09 11:44:01,113 [INFO]   - DOS: Distilling Observable Softmaps of Zipfian Prototypes for Self-Supervised Point Representation (2025-12-12)
+2026-03-09 11:44:01,113 [INFO]   - Geometry-to-Image Synthesis-Driven Generative Point Cloud Registration (2025-12-10)
+2026-03-09 11:44:01,113 [INFO]   - FUSER: Feed-Forward MUltiview 3D Registration Transformer and SE(3)$^N$ Diffusion Refinement (2025-12-10)
+2026-03-09 11:44:01,113 [INFO]   - ASSIST-3D: Adapted Scene Synthesis for Class-Agnostic 3D Instance Segmentation (2025-12-10)
+2026-03-09 11:44:01,113 [INFO]   - Query-aware Hub Prototype Learning for Few-Shot 3D Point Cloud Semantic Segmentation (2025-12-09)
+2026-03-09 11:44:01,113 [INFO]   - Label-Efficient Point Cloud Segmentation with Active Learning (2025-12-05)
+2026-03-09 11:44:01,113 [INFO]   - EZ-SP: Fast and Lightweight Superpoint-Based 3D Segmentation (2025-11-29)
+2026-03-09 11:44:01,113 [INFO]   - DoReMi: A Domain-Representation Mixture Framework for Generalizable 3D Understanding (2025-11-14)
+2026-03-09 11:44:01,113 [INFO]   - EPSegFZ: Efficient Point Cloud Semantic Segmentation for Few- and Zero-Shot Scenarios with Language Guidance (2025-11-12)
+2026-03-09 11:44:01,113 [INFO]   - 3D Weakly Supervised Semantic Segmentation via Class-Aware and Geometry-Guided Pseudo-Label Refinement (2025-10-17)
+2026-03-09 11:44:01,126 [INFO]   - BEEP3D: Box-Supervised End-to-End Pseudo-Mask Generation for 3D Instance Segmentation (2025-10-14)
+2026-03-09 11:44:01,126 [INFO]   - Through the Perspective of LiDAR: A Feature-Enriched and Uncertainty-Aware Annotation Pipeline for Terrestrial Point Cloud Segmentation (2025-10-08)
+2026-03-09 11:44:01,126 [INFO]   - Few to Big: Prototype Expansion Network via Diffusion Learner for Point Cloud Few-shot Semantic Segmentation (2025-09-16)
+2026-03-09 11:44:01,126 [INFO]   - Generalized Zero-Shot Learning for Point Cloud Segmentation with Evidence-Based Dynamic Calibration (2025-09-10)
+2026-03-09 11:44:01,126 [INFO]   - Open-world Point Cloud Semantic Segmentation: A Human-in-the-loop Framework (2025-08-07)
+2026-03-09 11:44:01,126 [INFO]   - GaussianCross: Cross-modal Self-supervised 3D Representation Learning via Gaussian Splatting (2025-08-04)
+2026-03-09 11:44:01,126 [INFO]   - Details Matter for Indoor Open-vocabulary 3D Instance Segmentation (2025-07-30)
+2026-03-09 11:44:01,126 [INFO]   - PointVDP: Learning View-Dependent Projection by Fireworks Rays for 3D Point Cloud Segmentation (2025-07-09)
+2026-03-09 11:44:01,126 [INFO]   - Ambiguity-aware Point Cloud Segmentation by Adaptive Margin Contrastive Learning (2025-07-09)
+2026-03-09 11:44:01,126 [INFO]   - Attention-Guided Multi-Scale Local Reconstruction for Point Clouds via Masked Autoencoder Self-Supervised Learning (2025-07-05)
+2026-03-09 11:44:01,126 [INFO]   - PGOV3D: Open-Vocabulary 3D Semantic Segmentation with Partial-to-Global Curriculum (2025-06-30)
+2026-03-09 11:44:01,126 [INFO]   - High-quality Pseudo-labeling for Point Cloud Segmentation with Scene-level Annotation (2025-06-29)
+2026-03-09 11:44:01,126 [INFO]   - Relation3D: Enhancing Relation Modeling for Point Cloud Instance Segmentation (2025-06-22)
+2026-03-09 11:44:01,126 [INFO]   - LLM-Guided Taxonomy and Hierarchical Uncertainty for 3D Point Cloud Active Learning (2025-05-25)
+2026-03-09 11:44:01,126 [INFO]   - Sketchy Bounding-box Supervision for 3D Instance Segmentation (2025-05-22)
+2026-03-09 11:44:01,126 [INFO]   - 3D-PointZshotS: Geometry-Aware 3D Point Cloud Zero-Shot Semantic Segmentation Narrowing the Visual-Semantic Gap (2025-04-16)
+2026-03-09 11:44:01,126 [INFO]   - Easy3D: A Simple Yet Effective Method for 3D Interactive Segmentation (2025-04-15)
+2026-03-09 11:44:01,126 [INFO]   - Taylor Series-Inspired Local Structure Fitting Network for Few-shot Point Cloud Semantic Segmentation (2025-04-03)
+2026-03-09 11:44:01,126 [INFO]   - ProtoGuard-guided PROPEL: Class-Aware Prototype Enhancement and Progressive Labeling for Incremental 3D Point Cloud Segmentation (2025-04-02)
+2026-03-09 11:44:01,126 [INFO]   - SAM2Point: Segment Any 3D as Videos in Zero-shot and Promptable Manners (2024-08-29)
+2026-03-09 11:44:01,126 [INFO]   - DEMOS: Dynamic Environment Motion Synthesis in 3D Scenes via Local Spherical-BEV Perception (2024-03-04)
+2026-03-09 11:44:01,126 [INFO]   - Class-Imbalanced Semi-Supervised Learning for Large-Scale Point Cloud Semantic Segmentation via Decoupling Optimization (2024-01-13)
+2026-03-09 11:44:01,126 [INFO]   - OSTA: One-shot Task-adaptive Channel Selection for Semantic Segmentation of Multichannel Images (2023-05-08)
+2026-03-09 11:44:01,126 [INFO]   - SnapshotNet: Self-supervised Feature Learning for Point Cloud Data Segmentation Using Minimal Labeled Data (2022-01-13)
+2026-03-09 11:44:01,126 [INFO]   - Learning Semantic Segmentation of Large-Scale Point Clouds with Random Sampling (2021-07-06)
+2026-03-09 11:44:01,126 [INFO]   - Omni-supervised Point Cloud Segmentation via Gradual Receptive Field Component Reasoning (2021-05-21)
+2026-03-09 11:44:01,126 [INFO]   - Spatial Transformer Point Convolution (2020-09-03)
+2026-03-09 11:44:01,126 [INFO]   - Equivariant Maps for Hierarchical Structures (2020-06-05)
+2026-03-09 11:44:01,126 [INFO]   - RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds (2019-11-25)
+2026-03-09 11:44:01,126 [INFO]   - Weighted Point Cloud Augmentation for Neural Network Training Data Class-Imbalance (2019-04-08)
+2026-03-09 11:44:01,126 [INFO]   - Classification of Point Cloud Scenes with Multiscale Voxel Deep Network (2018-04-10)
+2026-03-09 11:44:01,126 [INFO]   - Large-scale Point Cloud Semantic Segmentation with Superpoint Graphs (2017-11-27)
+2026-03-09 11:44:01,126 [INFO]   - Deep Projective 3D Semantic Segmentation (2017-05-09)
